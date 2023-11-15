@@ -1,0 +1,79 @@
+.food-search {
+  background-image: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+
+  
+}
+
+body{
+    background-image: url(../img/tractor.jpg);
+}
+
+fieldset {
+  border: 3px solid grey;
+  border-radius: 10px;
+  background-color: papayawhip;
+  display: flex;
+  padding: 3%;
+  margin: 2%;
+  height: 250px;
+  width: 500px;
+}
+
+fieldset .food-image-img {
+  height: 400px;
+  width: 320px;
+}
+
+fieldset .food-menu-desc h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: auto;
+  margin-top: 2px;
+}
+
+fieldset .food-menu-desc {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+legend {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  color: papayawhip;
+  background-color: grey;
+}
+
+fieldset .order-label {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+input {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  text-decoration: overline;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3%;
+  margin: 10px;
+  margin-bottom: 10%;
+}
+
+textarea {
+  border-radius: 10px;
+  border-color: yellowgreen;
+  margin-top: 3%;
+  margin: 10px;
+  margin-bottom: 10%;
+}
+.two{
+    display: grid;
+    height: 600px;
+}
+.order{
+    display: flex;
+}

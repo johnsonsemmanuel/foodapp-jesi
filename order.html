@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/order.css">
+    <link
+      rel="shortcut icon"
+      href="./img/icons8-food-bar-48.png"
+      type="image/x-icon"
+    />
+    <title>Order</title>
+  </head>
+  <body>
+    <section class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="#"
+            ><img src="./img/My_Logo.png" alt="" class="img-responsive"
+          /></a>
+        </div>
+
+        <div class="menu text-right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="foods.html">Foods</a></li>
+            <li><a href="order.html">Order</a></li>
+          </ul>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </section>
+    <!-- nav bar ends here -->
+
+    <section class="food-search">
+      <div class="container">
+        <h2 class="text-center text-white">Fill this form to order</h2>
+        <form action="#" class="order">
+          <fieldset class="one">
+            <legend>Selected Food</legend>
+            <div class="food-image-img">
+              <img src="./img/cabbage.jpg" alt="" class="img-responsive" />
+            </div>
+            <div class="food-menu-desc">
+              <h3>Order Cabbage</h3>
+              <p class="food-price">GHC 67.99</p>
+              <div class="order-label">Quantity</div>
+              <input
+                type="number"
+                name="Qty"
+                class="input-responsive"
+                value="1"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="two">
+            <legend>Delivery Details</legend>
+            <label for="" class="order-label">Full Name</label>
+            <input
+              type="text"
+              name="full-name"
+              placeholder="johnson-excellent"
+            />
+            <label for="" class="order-label">Phone Number</label>
+            <input type="text" name="contact" placeholder="number" />
+            <label for="" class="order-label">Email</label>
+            <input type="text" name="email" placeholder="email address" />
+            <br />
+
+            <label for="" class="order-label">Address</label>
+            <textarea name="Address" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="comfirm order" class="btn btn-primary">
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
